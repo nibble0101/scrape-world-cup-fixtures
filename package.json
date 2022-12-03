@@ -1,0 +1,20 @@
+{
+  "name": "scrape-world-cup-fixtures",
+  "version": "1.0.0",
+  "description": "A simple app for scraping 2022 FIFA World fixtures and results",
+  "main": "scrape-data.js",
+  "scripts": {
+    "scrape-data": "node scrape-data.js"
+  },
+  "keywords": [
+    "FIFA",
+    "Qatar 2022",
+    "FIFA World Cup 2022"
+  ],
+  "author": "Joseph Mawa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "puppeteer": "^19.3.0"
+  }
+}
