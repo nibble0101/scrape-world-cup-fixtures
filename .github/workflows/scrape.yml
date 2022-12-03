@@ -1,8 +1,8 @@
-name: First Cron Job
+name: Scrape FIFA World Cup 2022 Fixtures
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/20 18-23 3-18 12 *"
 
 jobs:
   scrape-data:
