@@ -2,7 +2,7 @@ name: Scrape FIFA World Cup 2022 Fixtures
 
 on:
   schedule:
-    - cron: "*/20 18-23 3-18 12 *"
+    - cron: "*/20 15-21 3-18 12 *"
 
 jobs:
   scrape-data:
